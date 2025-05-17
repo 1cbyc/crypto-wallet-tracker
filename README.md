@@ -17,3 +17,19 @@ Looking at fixing these features later:
 - Address tagging (like exchange lables, defi wallets)
 - Telegram/Discord bot notifications
 - Live Web app
+
+
+Structure should look this way:
+
+crypto-wallet-tracker/
+├── cli/                      
+│   ├── __init__.py
+│   ├── main.py               
+│   └── tracker.py            
+├── data/                     # dm me on telegram to request
+├── tests/                   
+│   └── test_tracker.py
+├── .env                      # API keys (use your own keys not sharing the project env)
+├── requirements.txt
+├── README.md
+└── .gitignore
